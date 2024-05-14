@@ -2,7 +2,7 @@ apiVersion: skaffold/v1
 kind: Config
 build:
   artifacts:
-  - image: derorisan/stride-proposal-atomfeed
+  - image: derorisan/dydx-proposal-atomfeed
     docker:
       dockerfile: ./Dockerfile
   local:
